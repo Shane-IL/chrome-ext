@@ -94,7 +94,12 @@ var ImagesManager = new function(){
             2: "./local-images/cats/cats2.jpg",
             3: "./local-images/cats/cats3.jpg",
             4: "./local-images/cats/cats4.jpg",
-            5: "./local-images/cats/cats5.jpg"
+            5: "./local-images/cats/cats5.jpg",
+            6: "./local-images/cats/cats6.jpg",
+            7: "./local-images/cats/cats7.jpg",
+            8: "./local-images/cats/cats8.jpg",
+            9: "./local-images/cats/cats9.jpg",
+            10: "./local-images/cats/cats10.jpg",
         }
     };
 
