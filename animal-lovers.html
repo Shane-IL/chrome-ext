@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Animal Lovers</title>
+    <link rel="stylesheet" type="text/css" href="animal-lovers.css">
+    <script src="scripts/jquery-2.2.3.min.js"></script>
+    <script src="animal-lovers.js"></script>
+</head>
+<body>
+
+    <div class="main-box">
+        <span class="search-type-menu">
+            <span class="web-search search-button">Web</span>
+            <span class="image-search search-button">Images</span>
+            <span class="video-search search-button">Videos</span>
+        </span>
+        <span class="animal-type-menu">
+            <span>I love: </span>
+            <span class="cat-type animal-button">Cats</span>
+            <span class="dog-type animal-button">Dogs</span>
+        </span>
+        <div class="pretty-box">
+            <div class="search-bar-container">
+                <input class="search-input" type="search" placeholder="search">
+            </div>
+            <div class="widgets-container">
+                <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=32.0853&lon=32.0853&name=Tel Aviv&units=ca"> </iframe>
+            </div>
+            <div class="operations-buttons-container">
+                <button class="next-image-button">Next Image</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
